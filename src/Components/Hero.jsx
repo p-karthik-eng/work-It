@@ -8,7 +8,7 @@ export default function Hero() {
         {/* Text Section */}
         <div className="flex-1 text-left px-6 md:px-14 pb-14">
           <div className="text-lg md:text-2xl uppercase text-gray-600">Welcome to</div>
-          <div className="text-4xl md:text-8xl font-bold bg-gradient-to-r from-gray-800 to-blue-600 text-transparent bg-clip-text mb-4">
+          <div className="text-4xl md:text-6xl lg:text-8xl font-bold bg-gradient-to-r from-gray-800 to-blue-600 text-transparent bg-clip-text mb-4">
             Work It
           </div>
           <div className="max-w-xl text-base md:text-lg text-gray-700 mx-auto md:mx-0 text-left">

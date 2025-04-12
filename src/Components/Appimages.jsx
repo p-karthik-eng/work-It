@@ -1,39 +1,55 @@
-import React, { useState } from 'react';
+import React from 'react';
+import Design1 from "../assets/design4.png";
+import Design2 from "../assets/design2.png";
+import Design3 from "../assets/design1.png";
+import Design4 from "../assets/design3.png";
+import Design5 from "../assets/design8.png";
+import Design6 from "../assets/design6.png";
+import Design7 from "../assets/design7.png";
+import Design8 from "../assets/design5.png";
 
 export default function AppImageShowcase() {
-  const [selectedImage, setSelectedImage] = useState(null);
-
   const appImages = [
     {
-      src: "https://via.placeholder.com/400x300",
+      src: Design1,
       alt: "Work It App Screenshot 1",
+      description: "SignUp"
+    },
+    {
+      src: Design2,
+      alt: "Work It App Screenshot 2",
       description: "Login"
     },
     {
-      src: "https://via.placeholder.com/400x300",
-      alt: " Work It App Screenshot 2",
-      description: "Interactive map view"
+      src: Design3,
+      alt: "Work It App Screenshot 3",
+      description: "Explore local Features"
     },
     {
-      src: "https://via.placeholder.com/400x300",
-      alt: "Work It  App Screenshot 3",
-      description: "Explore local communities"
-    },
-    {
-      src: "https://via.placeholder.com/400x300",
+      src: Design4,
       alt: "Work It App Screenshot 4",
-      description: "Add new community"
+      description: "Publish your works"
     },
     {
-      src: "https://via.placeholder.com/400x300",
-      alt: "Work It app Screenshot 5",
-      description: "Discover nearby connections"
+      src: Design5,
+      alt: "Work It App Screenshot 5",
+      description: "Works"
     },
     {
-      src: "https://via.placeholder.com/400x300",
+      src: Design6,
       alt: "Work It App Screenshot 6",
-      description: "Register"
-    }
+      description: "Response from Client"
+    },
+    {
+      src: Design7,
+      alt: "Work It App Screenshot 5",
+      description: "chat Space"
+    },
+    {
+      src: Design8,
+      alt: "Work It App Screenshot 5",
+      description: "Complete Alert"
+    },
   ];
 
   return (
@@ -42,16 +58,16 @@ export default function AppImageShowcase() {
         App Preview
       </h2>
 
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 md:gap-10">
         {appImages.map((image, index) => (
           <div
             key={index}
-            className="relative group border-2 cursor-pointer overflow-hidden rounded-lg shadow-lg hover:scale-105 transition-transform duration-300"
+            className="relative group  cursor-pointer overflow-hidden rounded-lg  hover:scale-105 transition-transform duration-300"
           >
             <img
               src={image.src}
               alt={image.alt}
-              className="w-full h-48 md:h-64 object-cover"
+              className="w-full h-auto object-contain"
             />
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-all duration-300 flex items-center justify-center">
               <p className="text-white opacity-0 group-hover:opacity-100 text-center px-4 transition-opacity duration-300">
