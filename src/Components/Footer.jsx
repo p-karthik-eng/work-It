@@ -16,7 +16,7 @@ const Footer = () => {
             
             <div>
               <h2 className="text-xl font-bold text-white">Work It</h2>
-              <p className="mt-1 text-sm  text-white">fuck you fuck you fuck you fuck you</p>
+              <p className="mt-1 text-sm  text-white">simplifying student Work – Get Help, Get Paid!</p>
             </div>
           </div>
           {/* Social Media Icons */}

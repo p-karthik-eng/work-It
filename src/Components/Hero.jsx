@@ -12,7 +12,9 @@ export default function Hero() {
             Work It
           </div>
           <div className="max-w-xl text-base md:text-lg text-gray-700 mx-auto md:mx-0 text-left">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut obcaecati nam quisquam nobis ratione similique dolore soluta perferendis aperiam veritatis, saepe ut temporibus illum cupiditate in, quas earum quidem rem!
+            
+WorkIt is an app made specially for students. It helps students who need help with tasks connect with other students who can do those tasks. It’s a platform made for students, by students.
+
           </div>
         </div>
 

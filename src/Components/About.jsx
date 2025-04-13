@@ -4,13 +4,14 @@ export default function About() {
       <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
         
         {/* Left Content */}
-        <div className="flex-1">
+        <div className="flex-1  mx-8">
           {/* Heading */}
-          <h2 className="text-3xl md:text-5xl lg:text-6xl font-josefin font-semibold  text-left  bg-gradient-to-r from-black to-blue-600 text-transparent bg-clip-text">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-josefin font-semibold  text-left  text-blue-600  ">
             About Us
           </h2>
-          <div>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis quibusdam animi perferendis harum. Eveniet delectus ullam ipsa nobis, enim quaerat distinctio sunt magni, saepe debitis amet! Quos quis enim alias.
+          <div className="pt-4">
+           <p>WorkIt is a just platform to connect students. We dont control or interface in your tasks and payments.</p>
+           <p>We believe student can support each other and grow together. that's what WorkIt is all about</p>
           </div>
 
         </div>

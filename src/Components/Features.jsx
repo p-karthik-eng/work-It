@@ -16,9 +16,7 @@ export default function Features() {
     "https://source.unsplash.com/300x300/?nature",
     "https://source.unsplash.com/300x300/?technology",
     "https://source.unsplash.com/300x300/?architecture",
-    "https://source.unsplash.com/300x300/?travel",
-    "https://source.unsplash.com/300x300/?food",
-    "https://source.unsplash.com/300x300/?sports",
+   
  
   ];
 
